@@ -2,6 +2,9 @@
 
 This repository contains an example HTML form that demonstrates the usage of various HTML form elements. It is designed to showcase different input types, validation techniques, and structuring best practices.
 
+![image](https://github.com/user-attachments/assets/4ac13646-7c4b-4644-930e-f9341b8d7e3f)
+
+
 ---
 
 ## Features
