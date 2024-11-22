@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+div {
+    display: grid;
+    grid-template-columns: 1fr 4fr; /* Label ve input oranları */
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+  }
