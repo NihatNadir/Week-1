@@ -11,10 +11,12 @@
     <form>
         <fieldset>
             <legend>Kullanıcı Bilgileri</legend>
+            <!-- Ad -->
             <div>
                 <label for="firstname">Ad :</label>
                 <input type="text" id="firstname">
             </div>
+            <!-- Soyad -->
             <div>
                 <label for="lastname">Soyad :</label>
                 <input type="text" id="lastname">
@@ -23,6 +25,7 @@
                 <label for="email">Email :</label>
                 <input type="email" id="email">
             </div>
+            <!-- Password -->
             <div>
                 <label for="password">Parola :</label>
                 <input type="password" id="password">
@@ -33,17 +36,23 @@
                 <input type="tel" name="phone" id="phone">
              </div>
              -->
+
+            <!-- Cinsiyet -->
+            
             <div> <!-- burada name kullanma sebebimiz id sadece bir label ile ilişki kurabilir -->
                 <label for="gender">Cinsiyet :</label>
                 <input type="radio" name="gender" value="male"> Erkek
                 <input type="radio" name="gender" value="female"> Kadın
             </div>
+
             <!-- doğum tarihi için input kısmında date kullanılır
             <div>
                 <label for="birthday">Doğum Tarihi :</label>
                 <input type="date" id="birthday">
-            </div>
-            -->
+            </div> -->
+
+            <!-- Favori Meyveler -->
+
             <div>
                 <label for="favouriteFruit">Favori Meyveniz </label>
                 <select name="favouriteFruit" id="favouriteFruit">
@@ -73,50 +82,59 @@
                       -->
                 </select>
             </div> 
+
             <!-- checkbox kullanımı
+
             <div> 
                 <label for="hobbies">Hobiler:<label>
                 <input type="checkbox" name="hobbie[]" value="sport"> Spor
                 <input type="checkbox" name="hobbie[]" value="music"> Müzik
                 <input type="checkbox" name="hobbie[]" value="read"> Okuma
                 <input type="checkbox" name="hobbie[]" value="game"> Oyun
-             </div>
-             -->
+             </div> -->
+
              <!-- dosya göndermek için input typefile kullanılır
+
              <div>
                 <label for="cv">Özgeçmiş Belgeniz:</label>
                  <input type="file" id="cv">
-            </div>
-            -->
+            </div> -->
            
             <!-- renk seçmek için input type color olmalı
+
             <div>
                 <label for="color">Renk :</label>
                 <input type="color" id="color">
-            </div>
-            -->
+            </div> -->
+
             <!-- numara seçmek için kullanılır              
             <div>
                 <label for="number">Numara :</label>
                 <input type="number" id="number">
-            </div>
-            -->
+            </div> -->
+
             <!-- aralık belirtmek için kullanılır ses ayarı gibi
+
             <div>
                 <label for="range">Aralık seçin :</label>
                 <input type="range">
-            </div>
-            -->
-            <!-- saat seçmek için kullanılır            
+            </div> -->
+
+            <!-- saat seçmek için kullanılır   
+
             <div>
                 <label for="time">Saat seçin :</label>
                 <input type="time" name="time" id="time">
             </div> -->
 
+            <!-- Mesaj  -->
+
             <div>
                 <label for="message">Mesajınız :<label>
                 <textarea name="message"id="message" rows="5" cols="40"></textarea>
             </div>
+
+            <!-- Gönderme butonu -->
 
             <div>
                 <button type="submit">Gönder</button>                   
