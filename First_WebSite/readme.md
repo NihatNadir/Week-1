@@ -1,6 +1,5 @@
 # Nihat Nadir Börlü - Personal Portfolio
 
-  
 This is the personal portfolio website of **Nihat Nadir Börlü**, showcasing various projects, education, and professional experience.
 
 ## Table of Contents
@@ -9,8 +8,7 @@ This is the personal portfolio website of **Nihat Nadir Börlü**, showcasing va
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
-- [Installation](#installation)
-- [License](#license)
+
 
 ## Introduction
 
