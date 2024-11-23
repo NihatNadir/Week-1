@@ -6,8 +6,7 @@ This repository contains an example HTML form that demonstrates the usage of var
 ![image](https://github.com/user-attachments/assets/4ac13646-7c4b-4644-930e-f9341b8d7e3f)
 
 
----
->>>>>>> 7f6b0e23762908cb8779cb8e44c925473856d397
+
 
 ## Features
 
