@@ -1,3 +1,14 @@
+/*
+Arka plan renkleri 
+Font
+Font-Size
+margin 
+padding
+width 
+height 
+color 
+text-decoration kullandım
+*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,8 +22,7 @@ body {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #fff;    
 }
 
 .header {    
