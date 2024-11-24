@@ -1,0 +1,106 @@
+/* Genel ayarlar */
+body {
+    font-family: 'Arial', sans-serif; /* Sayfa yazı tipini ayarlar */
+    margin: 0; /* Sayfa kenar boşluklarını sıfırlar */
+    padding: 0; /* Sayfa iç kenar boşluklarını sıfırlar */
+    background-color: #E6E9AF; /* Arka plan rengini belirler */
+    color: #22177A; /* Genel metin rengini ayarlar */
+}
+
+/* Sayfa başlığı */
+header {
+    background-color: #605EA1; /* Başlık arka plan rengini ayarlar */
+    color: #E6E9AF; /* Başlık metin rengini ayarlar */
+    text-align: center; /* Metni ortalar */
+    padding: 20px 10px; /* İç kenar boşlukları oluşturur */
+}
+
+header h1 {
+    font-size: 2.5em; /* Başlık yazı boyutunu büyütür */
+    margin: 0; /* Başlık için dış kenar boşluğunu sıfırlar */
+}
+
+header p {
+    font-size: 1.2em; /* Açıklama yazı boyutunu ayarlar */
+    margin-top: 10px; /* Üst dış boşluk ekler */
+}
+
+/* Blog yazısı bölümü */
+.blog-post {
+    background-color: #8EA3A6; /* Blog yazısının arka plan rengini belirler */
+    border-radius: 10px; /* Kenar köşelerini yuvarlar */
+    margin: 20px auto; /* Yazının üst-alt boşluğunu ayarlar ve ortalar */
+    padding: 20px; /* İç boşluk ekler */
+    width: 70%; /* Blog yazısının genişliğini yüzdeyle ayarlar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+}
+
+.blog-post h2 {
+    color: #22177A; /* Alt başlık rengini ayarlar */
+    font-size: 1.8em; /* Alt başlık boyutunu büyütür */
+    margin-bottom: 10px; /* Altına dış boşluk ekler */
+}
+
+.blog-post p {
+    font-size: 1.1em; /* Paragraf yazı boyutunu belirler */
+    line-height: 1.6; /* Satır yüksekliğini ayarlar, okunabilirliği artırır */
+    margin-bottom: 20px; /* Altına dış boşluk ekler */
+}
+
+/* Liste stili */
+.blog-post ul {
+    list-style-type: disc; /* Madde işaretlerini nokta şeklinde ayarlar */
+    margin: 20px 0; /* Üst ve alt dış boşluk ekler */
+    padding-left: 20px; /* Soldan iç boşluk ekler */
+}
+
+.blog-post li {
+    margin-bottom: 10px; /* Her liste elemanı arasında boşluk bırakır */
+    font-size: 1em; /* Liste yazı boyutunu ayarlar */
+}
+
+/* Görsel düzenleme */
+.image-container {
+    display: flex; /* Görselleri yatay hizalar */
+    gap: 10px; /* Görseller arasında boşluk bırakır */
+    margin: 20px 0; /* Üst ve alt dış boşluk ekler */
+    flex-wrap: wrap; /* Küçük ekranlarda görselleri alt alta getirir */
+    justify-content: center; /* Görselleri yatayda ortalar */
+}
+
+.image-container img {
+    border-radius: 10px; /* Görsellerin köşelerini yuvarlar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge ekler */
+    max-width: 25%; /* Görsel genişliğini en fazla %25 ile sınırlar */
+    height: auto; /* Görselin oranlarını korur */
+}
+
+/* Link stili */
+a {
+    color: #605EA1; /* Bağlantı rengini belirler */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    font-weight: bold; /* Bağlantı yazı tipini kalınlaştırır */
+}
+
+a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde alt çizgi ekler */
+}
+
+/* Ayrım çizgisi */
+hr {
+    border: 0; /* Çizgi kenarını sıfırlar */
+    height: 1px; /* Çizgi yüksekliğini belirler */
+    background-color: #605EA1; /* Çizgi rengini ayarlar */
+    margin: 40px 0; /* Üst ve alt dış boşluk ekler */
+}
+
+/* Medya sorguları - Küçük ekranlar için */
+@media (max-width: 768px) {
+    .blog-post {
+        width: 90%; /* Küçük ekranlarda genişliği %90 ile sınırlar */
+    }
+
+    .image-container img {
+        max-width: 80%; /* Görsellerin genişliğini %80 ile sınırlar */
+    }
+}
