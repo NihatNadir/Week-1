@@ -2,6 +2,9 @@
 
 This project is a simple blog website created to explore the world's wonders and hidden gems. Users can read blog posts about various destinations and experiences. The website is built using HTML and CSS.
 
+![image](https://github.com/user-attachments/assets/8bbc24db-f063-438f-956d-c995d855b4cf)
+
+
 ## Files
 
 ### `index.html`
