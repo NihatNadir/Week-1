@@ -1,0 +1,141 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0DFBD; /* Light beige */
+}
+
+/* Header */
+header {
+    background-color: #5F3970; /* Dark purple */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Horizontal Rule */
+hr {
+    border: none; /* Varsayılan kenarlığı kaldırır */
+    border-top: 3px solid #5F3970; /* Navbar rengiyle aynı yapılır ve 3px kalınlık eklenir */
+    margin: 20px 0; /* Üst ve alt boşluklar eklenir */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #397056; /* Teal */
+    font-size: 2.5rem; /* Large */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #397056; /* Teal */
+    font-size: 2rem; /* Medium-large */
+    margin-bottom: 18px;
+}
+
+h3 {
+    color: #397056; /* Teal */
+    font-size: 1.75rem; /* Medium */
+    margin-bottom: 16px;
+}
+
+h4 {
+    color: #397056; /* Teal */
+    font-size: 1.5rem; /* Slightly smaller */
+    margin-bottom: 14px;
+}
+
+h5 {
+    color: #397056; /* Teal */
+    font-size: 1.25rem; /* Smaller but more readable */
+    margin-bottom: 12px;
+}
+
+strong {
+    color: #397056; /* Teal */
+    font-weight: bold;
+}
+
+/* Unordered Lists */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Ordered Lists */
+ol {
+    padding-left: 20px;
+    list-style-type: none; /* Sayıları kaldırır */
+}
+
+li::marker {
+    display: none; /* Marker'ı tamamen kaldırır */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #9B8A69; /* Olive Brown */
+    color: white;
+}
+
+/* Form */
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #397056; /* Teal */
+    color: white;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5F3970; /* Dark Purple */
+}
+
+/* Links */
+a {
+    color: #397056; /* Teal */
+}
+
+a:hover {
+    color: #E0BDF0; /* Lavender */
+}
